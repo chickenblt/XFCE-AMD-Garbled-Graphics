@@ -1,0 +1,5 @@
+run this command in your terminal 
+
+xfconf-query -c xfwm4 -p /general/vblank_mode -t string -s "glx" --create
+
+and then reboot
